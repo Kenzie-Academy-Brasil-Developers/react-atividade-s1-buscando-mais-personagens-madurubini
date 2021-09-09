@@ -1,0 +1,10 @@
+.Board {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.Content {
+  color: white;
+}

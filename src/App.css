@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  color: white;
+  background-image: url("https://image.freepik.com/fotos-gratis/fundo-de-galaxia-espacial_53876-93121.jpg");
+}
+
+.Container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 25px;
+}
+
+.App > p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 5px;
+  width: 65%;
+}
+
+a {
+  color: yellow;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  color: #f5d7e2;
+  background-color: transparent;
+  width: 50px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+.Botoes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Botoes p {
+  font-size: 20px;
+}
+
+.Icone {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+}
